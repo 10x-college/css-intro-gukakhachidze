@@ -163,20 +163,88 @@ section h2 {
 
 footer {
   width: 1920px;
-  height: 403px;
+  height: 393pxpx;
   background-color: #252424;
 }
 
 .main-footer {
   width: 1240px;
   height: 338px;
+  /* margin-left: 428px; */
   margin-left: auto;
   margin-right: auto;
-  color: #a1a1a6;
-  background-color: red;
+  color: #ffffff;
+  background-color: #252424;
 
   h4 {
     font-size: 20px;
     font-weight: 600;
+  }
+
+  p {
+    color: #a1a1a6;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  a {
+    color: #a1a1a6;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+#techblog-box {
+  display: inline-block;
+  margin-top: 57px;
+  margin-left: 24px;
+  text-align: left;
+
+  > p {
+    width: 296px;
+    height: 68px;
+    margin-top: 11px;
+  }
+}
+
+#categories-box {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 82px;
+  margin-top: 54px;
+
+  > ul {
+    margin-top: 14px;
+
+    > li {
+      margin-top: 11px;
+    }
+  }
+}
+
+#contact-box {
+  display: block;
+  margin-left: 24px;
+
+  > a {
+    display: block;
+    margin-top: 11px;
+  }
+}
+
+#mini-footer {
+  width: 1920px;
+  height: 55px;
+  background-color: #020202;
+  color: #86868b;
+  text-align: center;
+
+  > span {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    width: 281px;
+    height: 16px;
+    margin-top: 20px;
   }
 }
